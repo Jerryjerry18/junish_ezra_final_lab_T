@@ -32,11 +32,19 @@ header {
 #main-logo { width: 220px; padding: 10px 20px; margin-left: auto; }
 
 /* main rules here */
+<<<<<<< Updated upstream
 #character-nav { margin-left: 30%; max-width: 60%; }
 
 .characters { list-style-type: none; }
 
 .characters li { 
+=======
+#country-nav { margin-left: 30%; max-width: 60%; }
+
+.countries { list-style-type: none; }
+
+.countries li { 
+>>>>>>> Stashed changes
   display: inline-block;
   height: 220px;
   margin: 10px 8px;
@@ -48,12 +56,20 @@ header {
   cursor: pointer;
 }
 
+<<<<<<< Updated upstream
 .characters li h5 {
+=======
+.countries li h5 {
+>>>>>>> Stashed changes
   color: white;
   padding: 12px 8px;
 }
 
+<<<<<<< Updated upstream
 .characters li a { text-decoration: none; }
+=======
+.countries li a { text-decoration: none; }
+>>>>>>> Stashed changes
 
 .red_bumper {
   width: 100%;
@@ -83,6 +99,7 @@ article p {
   width: 150px;
   height: 150px;
   
+<<<<<<< Updated upstream
   background-image: url('../images/marvelSprites.jpg');
 }
 
@@ -91,6 +108,16 @@ article p {
 #hulk { background-position: -450px 0; }
 #thor { background-position: -600px 0; }
 #widow { background-position: -750px 0; }
+=======
+  background-image: url('../images/country_Sprites.png');
+}
+
+#brazil { background-position: -150px 0; }
+#australia { background-position: -300px 0; }
+#canada { background-position: -450px 0; }
+#japan { background-position: -600px 0; }
+#portugal { background-position: -750px 0; }
+>>>>>>> Stashed changes
 
 .sprite:hover { background-position-y: -150px !important; }
 
