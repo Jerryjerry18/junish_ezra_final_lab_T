@@ -33,17 +33,23 @@ header {
 
 /* main rules here */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #character-nav { margin-left: 30%; max-width: 60%; }
 
 .characters { list-style-type: none; }
 
 .characters li { 
 =======
+=======
+>>>>>>> Stashed changes
 #country-nav { margin-left: 30%; max-width: 60%; }
 
 .countries { list-style-type: none; }
 
 .countries li { 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   display: inline-block;
   height: 220px;
@@ -57,7 +63,11 @@ header {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .characters li h5 {
+=======
+.countries li h5 {
+>>>>>>> Stashed changes
 =======
 .countries li h5 {
 >>>>>>> Stashed changes
@@ -66,7 +76,11 @@ header {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .characters li a { text-decoration: none; }
+=======
+.countries li a { text-decoration: none; }
+>>>>>>> Stashed changes
 =======
 .countries li a { text-decoration: none; }
 >>>>>>> Stashed changes
@@ -100,6 +114,7 @@ article p {
   height: 150px;
   
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   background-image: url('../images/marvelSprites.jpg');
 }
 
@@ -109,6 +124,8 @@ article p {
 #thor { background-position: -600px 0; }
 #widow { background-position: -750px 0; }
 =======
+=======
+>>>>>>> Stashed changes
   background-image: url('../images/country_Sprites.png');
 }
 
@@ -117,6 +134,9 @@ article p {
 #canada { background-position: -450px 0; }
 #japan { background-position: -600px 0; }
 #portugal { background-position: -750px 0; }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 .sprite:hover { background-position-y: -150px !important; }
