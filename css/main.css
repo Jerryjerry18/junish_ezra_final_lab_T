@@ -12,7 +12,7 @@
 html, body { height: 100% }
 
 body { 
-font-family: sans-serif;
+font-family: 'Times New Roman', Times, serif;
 background-color: black;
 color: white;
 
@@ -32,33 +32,52 @@ header {
 #main-logo { width: 220px; padding: 10px 20px; margin-left: auto; }
 
 /* main rules here */
-#character-nav { margin-left: 30%; max-width: 60%; }
+#country-nav { margin-left: 30%; max-width: 60%; }
 
-.characters { list-style-type: none; }
+.countries { list-style-type: none; }
 
-.characters li { 
+.countries li { 
   display: inline-block;
   height: 220px;
   margin: 10px 8px;
 
-  background-color: black;
+  background-color:black;
 
   text-align: left;
 
   cursor: pointer;
+  padding-top: 60px;
+  padding-left:60px;
+}
+input[type="checkbox"]:checked + span::after {
+  content: '\2713';
+  width: 29px;
+  height: 29px;
+  background-color: grey;
+  border-radius: 50%;
+  padding: 5px;
+  border: 4px solid grey;
+  font-size: 1.5em;
+  position: relative;
+  top: -250px;
+  right: -67px;
+
+
+  animation: fadein 0.9s;
 }
 
-.characters li h5 {
+.countries li h5 {
   color: white;
   padding: 12px 8px;
+  font-size: 22px;
 }
 
-.characters li a { text-decoration: none; }
+.countries li a { text-decoration: none; }
 
 .red_bumper {
   width: 100%;
-  height: 6px;
-  background-color: red;
+  height: 10px;
+  background-color: grey;
 }
 
 article { 
@@ -83,14 +102,14 @@ article p {
   width: 150px;
   height: 150px;
   
-  background-image: url('../images/marvelSprites.jpg');
+  background-image: url('../images/country_Sprites.png');
 }
 
-#carol { background-position: -150px 0; }
-#clint { background-position: -300px 0; }
-#hulk { background-position: -450px 0; }
-#thor { background-position: -600px 0; }
-#widow { background-position: -750px 0; }
+#brazil { background-position: -150px 0; }
+#australia { background-position: -300px 0; }
+#canada { background-position: -450px 0; }
+#japan { background-position: -600px 0; }
+#portugal { background-position: -750px 0; }
 
 .sprite:hover { background-position-y: -150px !important; }
 
@@ -162,3 +181,15 @@ footer {
 
 /* turn the lightbox on using the :target pseudo selector */
 .lightbox:target { display: block; }
+
+@keyframes fadein {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+
+
+.usa_team{
+margin-top: -370px;
+}
+
